@@ -1,0 +1,33 @@
+body{
+  font-family: 'Lora';
+}
+
+h3{
+  font-size: 2.25rem;
+
+  @include media-breakpoint-down(md){
+    font-size: 1.6rem;
+  }
+}
+
+h4{
+  @include media-breakpoint-down(md){
+    font-size: 1.2rem;
+  }
+}
+
+.text-warning{
+  border-bottom: 2px solid #A11313;
+}
+
+.default-text{
+  font-size: 1.2rem;
+
+  @include media-breakpoint-down(md){
+    font-size: .8rem;
+  }
+}
+
+.line{
+  border: 1px solid black;
+}

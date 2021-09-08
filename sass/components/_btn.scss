@@ -1,0 +1,23 @@
+.btn{
+  padding: .5rem 2rem;
+  font-size: 1.6rem;
+  transition: all .2s;
+
+  @include media-breakpoint-down(md){
+    font-size: 1.2rem;
+  }
+
+  &:hover{
+    transform: translateY(-.25rem);
+
+  }
+
+  &-primary{
+    box-shadow: .1rem .1rem .25rem $color-primary;
+  }
+
+  &-secondary{
+    box-shadow: .1rem .1rem .25rem $color-secondary;
+  }
+
+}

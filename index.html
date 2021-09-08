@@ -571,6 +571,7 @@
             <h1 class="h1">Positions Applied For</h1>
             <h3 class="h3">Start with most recent position.</h3>
 
+            <div class="employer1">
             <h4 class="h4">Employer #1</h4>
             <div class="form-row">
                 <div class="form-group col-md-5">
@@ -588,18 +589,18 @@
                     <input type="text" class="form-control" id="inputEmployerCity">
                 </div>
                 <div class="form-group col-md-3">
-                    <label for="inputState">State</label>
+                    <label for="inputEmployerState">State</label>
                     <select id="inputEmployerState" class="form-control">
                         <option selected>Choose...</option>
                         <option>...</option>
                     </select>
                 </div>
                 <div class="form-group col-md-3">
-                <label for="inputEmployerCountry">Country</label>
-                <select type="text" class="form-control" id="inputEmployerCountry" placeholder="1234 Main St">
-                    <option selected>Choose...</option>
-                    <option>...</option>
-                </select>
+                    <label for="inputEmployerCountry">Country</label>
+                    <select type="text" class="form-control" id="inputEmployerCountry" placeholder="1234 Main St">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
                 </div>
                 <div class="form-group col-md-3">
                     <label for="inputEmployerZip">Zip</label>
@@ -627,8 +628,131 @@
                 </div>
             </div>
             <div class="form-group">
-                <label for="inputEmployerPosition">Specific Duties</label>
-                <textarea class="form-control" id="inputEmployerPosition" rows="4" placeholder=""></textarea>
+                <label for="inputSpecificDuties">Specific Duties</label>
+                <textarea class="form-control" id="inputSpecificDuties" rows="4" placeholder=""></textarea>
+            </div>
+            </div>
+            <div class="employer2">
+                <h4 class="h4">Employer #1</h4>
+                <div class="form-row">
+                    <div class="form-group col-md-5">
+                        <label for="inputEmployerName2">Employer Name</label>
+                        <input type="text" class="form-control" id="inputEmployerName2" placeholder="Employer Name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmployerAddress2">Street Address of PO Box Number</label>
+                    <input type="text" class="form-control" id="inputEmployerAddress2" placeholder="1234 Main St">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-3">
+                        <label for="inputEmployerCity2">City</label>
+                        <input type="text" class="form-control" id="inputEmployerCity2">
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="inputEmployerState2">State</label>
+                        <select id="inputEmployerState2" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="inputEmployerCountry2">Country</label>
+                        <select type="text" class="form-control" id="inputEmployerCountry2" placeholder="1234 Main St">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="inputEmployerZip2">Zip</label>
+                        <input type="text" class="form-control" id="inputEmployerZip2">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col">
+                        <label for="inputEmployerPhone2">Phone</label>
+                        <input type="tel" class="form-control" id="inputEmployerPhone2" placeholder="(555)-555-5555">
+                    </div>
+                    <div class="form-group col">
+                        <label for="inputEmployerPosition2">Position</label>
+                        <input type="text" class="form-control" id="inputEmployerPosition2" placeholder="--">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col">
+                        <label for="startEmployerDate2">Start Date</label>
+                        <input type="datetime-local" class="form-control" id="startEmployerDate2">
+                    </div>
+                    <div class="form-group col">
+                        <label for="endEmployerDate2">End Date</label>
+                        <input type="datetime-local" class="form-control" id="endEmployerDate2">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputSpecificDuties2">Specific Duties</label>
+                    <textarea class="form-control" id="inputSpecificDuties2" rows="4" placeholder=""></textarea>
+                </div>
+            </div>
+            <div class="employer3">
+                <h4 class="h4">Employer #3</h4>
+                <div class="form-row">
+                    <div class="form-group col-md-5">
+                        <label for="inputEmployerName2">Employer Name</label>
+                        <input type="text" class="form-control" id="inputEmployerName3" placeholder="Employer Name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmployerAddress2">Street Address of PO Box Number</label>
+                    <input type="text" class="form-control" id="inputEmployerAddress3" placeholder="1234 Main St">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-3">
+                        <label for="inputEmployerCity3">City</label>
+                        <input type="text" class="form-control" id="inputEmployerCity3">
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="inputEmployerState3">State</label>
+                        <select id="inputEmployerState3" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="inputEmployerCountry3">Country</label>
+                        <select type="text" class="form-control" id="inputEmployerCountry3" placeholder="1234 Main St">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="inputEmployerZip3">Zip</label>
+                        <input type="text" class="form-control" id="inputEmployerZip3">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col">
+                        <label for="inputEmployerPhone3">Phone</label>
+                        <input type="tel" class="form-control" id="inputEmployerPhone3" placeholder="(555)-555-5555">
+                    </div>
+                    <div class="form-group col">
+                        <label for="inputEmployerPosition3">Position</label>
+                        <input type="text" class="form-control" id="inputEmployerPosition3" placeholder="--">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col">
+                        <label for="startEmployerDate3">Start Date</label>
+                        <input type="datetime-local" class="form-control" id="startEmployerDate3">
+                    </div>
+                    <div class="form-group col">
+                        <label for="endEmployerDate3">End Date</label>
+                        <input type="datetime-local" class="form-control" id="endEmployerDate3">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputSpecificDuties3">Specific Duties</label>
+                    <textarea class="form-control" id="inputSpecificDuties3" rows="4" placeholder=""></textarea>
+                </div>
             </div>
 
             <button type="submit" class="btn btn-primary">Next</button>

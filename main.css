@@ -7846,6 +7846,7 @@ h3 {
 
 .btn {
   padding: .5rem 2rem;
+  margin-top: 1rem;
   font-size: 1.6rem;
   transition: all .2s; }
   @media (max-width: 991.98px) {
